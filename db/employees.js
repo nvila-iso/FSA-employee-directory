@@ -11,6 +11,6 @@ const employees = [
   { id: 10, name: "Gwen Grollmann" },
 ];
 
-console.log(employees[0]);
+// console.log(employees[0]);
 
 export default employees;
