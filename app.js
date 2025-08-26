@@ -13,7 +13,7 @@ app.route("/employees").get((req, res) => {
 
 app.route("/employees/random").get((req, res) => {
   // create a random number based on the amount of employees
-  const random = Math.floor(Math.random() * employees.length + 1);
+  const random = Math.floor(Math.random() * employees.length);
   res.send(employees[random]);
 });
 

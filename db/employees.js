@@ -11,7 +11,6 @@ const employees = [
   { id: 10, name: "Gwen Grollmann" },
 ];
 
-// const random = Math.floor(Math.random() * employees.length + 1);
-// console.log(employees[random]);
+console.log(employees[0]);
 
 export default employees;
